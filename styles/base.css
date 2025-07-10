@@ -7,7 +7,18 @@
 --white: white;
 }
 
-.course-title, h3, footer {
+
+.nunito-sans-body {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+#course-title, h2, footer {
     display: block;
     color: var(--white);
 }
@@ -65,7 +76,7 @@ main h1 {
     border-radius: 10px;
 }
 
-section h3 {
+section h2 {
     background-color: var(--cambridge-blue);
     width: 100%;
     text-align: center;

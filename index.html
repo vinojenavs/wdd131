@@ -8,16 +8,20 @@
     <meta name="description" content="Home Page of Onavino Ajenavi for WDD131 - Dynamic Web Fundamentals">
     <meta name="author" content="Onavino Ajenavi">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Notable&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
     <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
+    <div class="body">
     <header>
-        <span class="course-title">
-            <h1>WDD131 - Dynamic Web Fundamentals</h1>
-        </span>
+        <h1><span id="course-title">WDD131 - Dynamic Web Fundamentals</span></h1>
         <nav>
-            <a href="hppts://linkedin.com">LinkedIn</a>
+            <a href="https://linkedin.com">LinkedIn</a>
             <a href="https://byupw.instructure.com/">Canvas</a>
             <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng">Scripture</a>
             <a href="">Final Project</a>
@@ -26,7 +30,7 @@
     <main>
         <h1>Onavino Ajenavi</h1>
         <section class="card">
-            <h3>About Me</h3>
+            <h2>About Me</h2>
             <div class="about">
                 <div class="profile">
                     <img src="images/profile.jpg" alt="profile photo">
@@ -55,7 +59,7 @@
             </div>
         </section>
         <section class="card">
-            <h3>Web Dev Resources</h3>
+            <h2>Web Dev Resources</h2>
             <ul>
                 <li><a href="">Dev to Community</a></li>
                 <li><a href="">Smashing Magazine</a></li>
@@ -70,6 +74,7 @@
         <p>&copy; <span id="currentyear"></span> Onavino Ajenavi Nigeria</p>
         <p id="lastModified"></p>
     </footer>
+    </div>
 </body>
 
 </html>

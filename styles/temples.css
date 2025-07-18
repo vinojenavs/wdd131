@@ -63,17 +63,14 @@ header h1 {
     display: block;
 }
 
-body h1, figcaption {
+figcaption {
     text-align: center;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-  margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: 0px;
 }
 
 main {
@@ -82,7 +79,8 @@ main {
     margin: 0 auto;
 }
 
-main h1 {
+main h2 {
+    text-align: center;
     color: var(--indigo-dye);
 }
 

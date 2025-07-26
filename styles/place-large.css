@@ -1,0 +1,77 @@
+@media (min-width: 500px) {
+       .data h2 {
+        background-color: var(--british-racing-green);
+        position: absolute;
+        top: 130px;
+        left: 11px;
+        margin: 0px;
+        padding: 10px 160px 10px 12px;
+        z-index: 2;
+        opacity: 85%;
+        color: var(--cream);
+       }
+
+       .data .label {
+        position: absolute;
+        top: 120px;
+        left: 22px;
+        background-color: var(--cream);
+        opacity: 80%;
+        padding: 50px 3px 0px 20px;
+        z-index: 1;
+       }
+
+       .data .value {
+        position: absolute;
+        top: 120px;
+        left: 135px;
+        background-color: var(--cream);
+        opacity: 80%;
+        padding: 50px 20px 0px 3px;
+        z-index: 0;
+       }
+
+       .weather h2 {
+        background-color: var(--british-racing-green);
+        position: absolute;
+        top: 430px;
+        right: 55px;
+        margin: 0px;
+        padding: 10px 90px 10px 12px;
+        z-index: 1;
+        opacity: 85%;
+        color: var(--cream);
+       }
+
+       .weather .label {
+        position: absolute;
+        top: 420px;
+        right: 116px;
+        background-color: var(--cream);
+        opacity: 80%;
+        padding: 50px 3px 0px 20px;
+       }
+       
+       .weather .value {
+        position: absolute;
+        top: 420px;
+        right: 34px;
+        background-color: var(--cream);
+        opacity: 80%;
+        padding: 50px 20px 0px 3px;
+       }
+
+       .weather img {
+        display: none;
+       }
+
+       .weather::before {
+        position: absolute;
+        top: 430px;
+        right: 80px;
+        z-index: 2;
+        opacity: 90%;
+        content: "🌥️";
+        font-size: 30px;
+       }
+}

@@ -13,3 +13,4 @@ function displayCurrentYear() { document.getElementById("currentyear").innerHTML
 displayCurrentYear();
 
 document.getElementById("lastModified").innerHTML = "Last Updated" + document.lastModified;
+

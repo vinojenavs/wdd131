@@ -1,0 +1,41 @@
+table {
+    border: 1px solid black;
+    margin: 10px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: "Nunito sans", sans-serif;
+}
+
+tr:first-child th, .empty {
+    background-color: black;
+    border: thin solid black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.full {
+    background-color: gray;
+    color: white;
+    border: thin solid gray;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+td {
+    border: thin solid rgba(220, 218, 218, 0.635);
+    padding: 10px 20px;
+    font-weight: 600px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(220, 218, 218, 0.635);
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-size: 13px;
+}

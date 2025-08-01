@@ -65,13 +65,15 @@
         display: none;
        }
 
-       .weather::before {
+       .weather::after {
         position: absolute;
-        top: 430px;
-        right: 80px;
+        top: 443px;
+        right: 100px;
         z-index: 2;
         opacity: 90%;
-        content: "🌥️";
-        font-size: 30px;
+        content: ":-)";
+        font-size: 20px;
+        color: var(--cream);
+        font-weight: 600;
        }
 }

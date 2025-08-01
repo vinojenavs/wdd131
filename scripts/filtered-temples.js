@@ -122,7 +122,7 @@ creatTempleCard(temples);
 
 oldLink.addEventListener('click', () => {
     document.querySelector('.temples').innerHTML = "";
-    let oldTemple = temples.filter(temple => temple.dedicated[0] < 2000);
+    let oldTemple = temples.filter(temple => temple.dedicated[0] < 1900);
     creatTempleCard(oldTemple);
 });
 

@@ -1,0 +1,29 @@
+.sitename img {
+    width: 100px;
+    padding: 10px;
+}
+
+.wireframe img {
+    width: 400px;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    font-family: "Rockkitt", serif;
+}
+
+h1 {
+    border-bottom: 3px solid #003049;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #EAE2B7;
+    color: #003049;
+    max-width: 840px;
+    margin: 0 auto;
+}
+

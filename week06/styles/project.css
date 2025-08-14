@@ -1,0 +1,254 @@
+:root {
+    --light-orange: #F4EBD0ff;
+    --battleship-gray: #9B9388ff;
+    --davys-gray: #5A5752ff;
+    --dark-goldenrod: #9E7924ff;
+    --black-bean: #401409ff;
+    --shadow: 0 0 10px var(--battleship-gray);
+}
+
+body {
+    margin: 0;
+    background-color: var(--light-orange);
+}
+
+h1, h2, h3 {
+    font-family: "Rockkitt", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: var(--davys-gray);
+}
+
+p, figcaption, li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: var(--davys-gray);
+}
+
+#menu {
+    font-size: 1.5rem;
+    background: none;
+    border: 0;
+    color: var(--light-orange);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+header {
+    background-color: var(--black-bean);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.navigation {
+    grid-column: 7/9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.navigation a {
+    display: none;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-orange);
+}
+
+.navigation a:hover {
+    color: var(--dark-goldenrod);
+    font-weight: 700;
+}
+
+.open a {
+    display: block;
+}
+
+header img {
+    max-width: 100px;
+    padding: 10px;
+    grid-column: 2/3;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero h3 {
+    position: absolute;
+    top: 60%;
+    left: 3%;
+    color: var(--light-orange);
+    text-shadow: 2px 2px 4px var(--davys-gray);
+}
+
+.hero p {
+    position: absolute;
+    top: 68%;
+    left: 3%;
+    color: var(--light-orange);
+    text-shadow: 2px 2px 6px var(--davys-gray);
+}
+
+.service {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));   
+}
+
+.service img {
+    max-width: 250px;
+    padding: 0px;
+    display: flex;
+    justify-self: center;
+    margin-top: 20px;
+    box-shadow: var(--shadow);
+}
+
+figcaption {
+    padding: 10px 0px;
+}
+
+.project {
+    display: grid;
+}
+
+.project p {
+    margin: 1px;
+}
+
+.project img {
+    width: 100%;
+    box-shadow: var(--shadow);
+}
+
+.project1, .project2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+.before {
+    grid-column: 1/2;
+    justify-self: center;
+}
+
+.after {
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+footer {
+    background-color: var(--black-bean);
+    color: var(--light-orange);
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: var(--light-orange);
+}
+
+nav a img {
+    width: 20px;
+    padding: 0px 10px;
+}
+
+fieldset {
+    padding: 10px;
+    display: grid;
+    width: 300px;
+    justify-self: center;
+    margin: 30px;
+    border: none;
+}
+
+input[type="text"], input[type="number"], textarea {
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+legend {
+    text-align: center;
+    font-family: "Rockkitt", sans-serif;
+    font-weight: 600;
+    color: var(--battleship-gray);
+}
+
+iframe {
+    display: grid;
+    justify-self: center;
+    box-shadow: var(--shadow);
+    margin: 40px;
+    width: 80%;
+    height: 400px;
+}
+
+.servicee {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicee button {
+    width: 100px;
+    height: 50px;
+}
+
+.Services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+
+.Services img {
+    max-width: 300px;
+    height: 250px;
+    margin: 20px;
+    padding: 0px;
+    display: flex;
+    justify-self: center;
+    box-shadow: var(--shadow);
+}
+
+.abs {
+    padding: 20px;
+}
+
+.about img {
+    width: 90%;
+    display: flex;
+    justify-self: center;
+}
+
+@media (min-width: 500px) {
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+    grid-column: 4/10;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    .navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-orange);
+    }
+}

@@ -1,0 +1,69 @@
+header, footer  {
+    background-color: rgb(63, 0, 63);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 500;
+}
+
+form {
+    display: grid;
+    margin: 20px 0px;
+    padding: 30px 20px;
+    background-color: rgba(165, 168, 170, 0.623);
+}
+
+legend, p, .usefulness input {
+    padding: 0px;
+    margin: 0px;
+}
+
+fieldset {
+    border: none;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+input[type="date"], select, textarea, input[type="submit"] {
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.stars{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.radio-group label {
+    display: block;
+}
+
+.usefulness {
+    display: grid;    
+}
+
+.feature {
+    margin: 2px 0px;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+}
+
+.optional {
+    font-size: 12px;
+    color: rgb(119, 0, 255);
+}
+
+.italics {
+    font-style: italic;
+}

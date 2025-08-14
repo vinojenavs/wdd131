@@ -28,7 +28,7 @@ fieldset {
     padding: 0px;
 }
 
-input[type="date"], select, textarea, input[type="submit"] {
+input[type="date"],input[type="text"], select, textarea, input[type="submit"] {
     padding: 10px;
     margin: 5px 10px;
 }
